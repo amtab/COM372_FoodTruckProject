@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Aclonica);
+
+body{
+  font-size: 100%;
+  background-image: url("Images/8435859291_425ce4b2ab_k.jpg");
+  margin: 0px;
+  padding: 0px;
+color: white;
+}
+
+header {
+  background-color:#900000;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-family:'Aclonica', sans-serif;
+  text-decoration: none;
+}
+p {
+  color: brown;
+  padding-top: 20px;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+}
+
+strong {
+  color: orange;
+}
+
+nav {
+  position:absolute;
+  top:100px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  background-color:#900000;
+  color:white;
+  min-width:800px;
+  text-align:center;
+  height:20px;
+  padding:10px 20px;
+  text-decoration: none;
+
+}
+
+nav a {
+  margin: 40px;
+  background-color: brown;
+}
+h1{
+  margin: 2px;
+  color: white;
+  font-size: 100px;
+  padding: 0px;
+  text-decoration: none;
+}
+h2{
+  margin: 1px;
+  color: white;
+  font-size: 50px;
+  padding-left: 20px;
+  padding-top: 30px;
+
+}
+h3 {
+  color:white;
+  background-color: orange;
+}
+
+#content {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  padding-bottom: 15%;
+}
+#content figure {
+  float: right;
+  margin: 10px;
+  position: relative;
+}
+#indexcontent{
+  width: 35%;
+  font-size: 12px;
+  padding: 1px;
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+}
+
+#movebox {
+  margin: 90px;
+  border: 2px black solid;
+  padding: 4px;
+  width: 60px;
+  background-color: brown;
+}
+
+
+#list1 li{
+  padding: 10px;
+  width: 120px;
+  margin-right: 50px;
+  margin-left: 30px;
+  display: inline;
+  display: block;
+  display: block;
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+#footer li {
+  padding: 1px;
+  width: 60px;
+  margin: 20px;
+  margin-left: 140px;
+  margin-right: 140px;
+  display: inline-block;
+  color: white;
+}
+#eventsli  {
+  background-color: white;
+  color: brown;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline;
+  display: block;
+  display: block;
+  display: inline-block;
+  position: fixed;
+}
+
+footer {
+background-color:#900000;
+ position: fixed;
+ bottom: 0px;
+ width: 100%;
+}
